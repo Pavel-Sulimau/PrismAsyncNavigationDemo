@@ -1,0 +1,141 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "810f48172d641dec5c2ad21fa3c4687b0db18c63"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Prism.DryIoc.Forms/7.1.0": {
+        "dependencies": {
+          "DryIoc.dll": "3.0.2",
+          "Microsoft.SourceLink.GitHub": "1.0.0-beta-62925-02",
+          "NETStandard.Library": "2.0.3",
+          "Prism.Forms": "7.1.0"
+        },
+        "runtime": {
+          "Prism.DryIoc.Forms.dll": {}
+        }
+      },
+      "DryIoc.dll/3.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/DryIoc.dll": {
+            "assemblyVersion": "3.0.2.0",
+            "fileVersion": "3.0.2.0"
+          }
+        }
+      },
+      "Microsoft.Build.Tasks.Git/1.0.0-beta-62925-02": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.SourceLink.Common/1.0.0-beta-62925-02": {},
+      "Microsoft.SourceLink.GitHub/1.0.0-beta-62925-02": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.0.0-beta-62925-02",
+          "Microsoft.SourceLink.Common": "1.0.0-beta-62925-02"
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Xamarin.Forms/3.2.0.839982": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Prism.Core/7.1.0": {
+        "runtime": {
+          "Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0": {
+        "dependencies": {
+          "Prism.Core": "7.1.0",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "runtime": {
+          "Prism.Forms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prism.DryIoc.Forms/7.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DryIoc.dll/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9R8iJjsJhjHwKj98aDadcmsiGVEoxoYx5jcOumaVfwK672bMprYVLJqwDlv3Sgb+meQ7WHTYaIf/Nxq9llnUwg==",
+      "path": "dryioc.dll/3.0.2",
+      "hashPath": "dryioc.dll.3.0.2.nupkg.sha512"
+    },
+    "Microsoft.Build.Tasks.Git/1.0.0-beta-62925-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eK9QAKKzul2bEH/2CIfQr46p3/+eW9qL6xz+FaKmro/AoFETHb2n8xIVmY0LfifunSEno3VD4y2t1B0nFcrs5A==",
+      "path": "microsoft.build.tasks.git/1.0.0-beta-62925-02",
+      "hashPath": "microsoft.build.tasks.git.1.0.0-beta-62925-02.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.0.0-beta-62925-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zGvd14+QmbOaUwN/F+N2D/YWlNQJ3/t8bCIE0WEaaJdrQyG0JmUXAreej9ggQWyYIUQo36QHdPiMgAggxe09aA==",
+      "path": "microsoft.sourcelink.common/1.0.0-beta-62925-02",
+      "hashPath": "microsoft.sourcelink.common.1.0.0-beta-62925-02.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.0.0-beta-62925-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3BSqtm9kT+hwWWeKAaoF0zmyUYOG+dl1uo+4S2aAlIAV70yiaUFkPS0+XtnzdWmDMRrqCB74FbPKwogjaU2VBQ==",
+      "path": "microsoft.sourcelink.github/1.0.0-beta-62925-02",
+      "hashPath": "microsoft.sourcelink.github.1.0.0-beta-62925-02.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.2.0.839982": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P3+8hKE6Q0HXg/TSsDxiLZgpAL/63xsd39kPwxjacZtK4x2T28V3xxGsK3hpJMPs2Bv7H/+6eiHnfwDi2vCAyg==",
+      "path": "xamarin.forms/3.2.0.839982",
+      "hashPath": "xamarin.forms.3.2.0.839982.nupkg.sha512"
+    },
+    "Prism.Core/7.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Prism.Forms/7.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

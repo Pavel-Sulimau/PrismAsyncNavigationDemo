@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrismNavigationDemo.Views.FirstPage"
+             Title="{Binding Title}"
+             BackgroundColor="Bisque">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text="It is FIRST page." />
+            <Label Text="{Binding Result}" />
+            <Button Text="Navigate to SecondPage"
+                    Command="{Binding NavigateToSecondPageCommand}" />
+            <ActivityIndicator IsVisible="{Binding IsBusy}"
+                               IsRunning="{Binding IsBusy}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
