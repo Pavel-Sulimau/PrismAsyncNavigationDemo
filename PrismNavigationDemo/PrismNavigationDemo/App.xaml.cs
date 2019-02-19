@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Prism;
 using Prism.Ioc;
+using Prism.Navigation;
 using PrismNavigationDemo.ViewModels;
 using PrismNavigationDemo.Views;
 using Xamarin.Forms;
@@ -31,11 +32,12 @@ namespace PrismNavigationDemo
         protected override void OnInitialized()
         {
             InitializeComponent();
-            // await NavigationService.NavigateAsync("NavigationPage/MainPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.Register<INavigationService, Prism.Xamarin.AsyncNavigation.PageNavigationService>();
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<FirstPage, FirstPageViewModel>();

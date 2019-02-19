@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Prism.Navigation;
+using Prism.Xamarin.AsyncNavigation;
 using Xamarin.Forms;
 
 namespace PrismNavigationDemo.ViewModels

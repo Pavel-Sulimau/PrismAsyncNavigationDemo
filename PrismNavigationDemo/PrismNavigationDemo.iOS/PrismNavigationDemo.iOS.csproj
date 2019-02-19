@@ -183,21 +183,6 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DryIoc">
-      <HintPath>..\Libs\Prism.DryIoc.Forms\monoandroid71\71\DryIoc.dll</HintPath>
-    </Reference>
-    <Reference Include="Prism, Version=7.1.0.0, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Prism.DryIoc.Forms\netstandard2.0\Prism.dll</HintPath>
-    </Reference>
-    <Reference Include="Prism.DryIoc.Forms, Version=7.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Prism.DryIoc.Forms\netstandard2.0\Prism.DryIoc.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="Prism.Forms, Version=7.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Prism.DryIoc.Forms\netstandard2.0\Prism.Forms.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />

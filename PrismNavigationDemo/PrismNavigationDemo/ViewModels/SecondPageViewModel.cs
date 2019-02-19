@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Threading.Tasks;
 using Prism.Navigation;
+using Prism.Xamarin.AsyncNavigation;
 
 namespace PrismNavigationDemo.ViewModels
 {
